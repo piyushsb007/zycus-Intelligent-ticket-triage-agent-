@@ -186,4 +186,8 @@ knowledge-base/  # Markdown KB articles
 
 These files are committed to the repository as required by the assignment.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 6b71608b2fb269378cfc267af65b7642f0348b96
