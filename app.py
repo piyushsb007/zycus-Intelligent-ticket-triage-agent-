@@ -55,14 +55,19 @@ with tab1:
     with st.form("triage_form"):
         subject = st.text_input(
             "Subject",
-            value="URGENT: production DataBridge Pro pipeline down"
+            value="URGENT: Missing data in DataBridge Pro Schema Management"
         )
         body = st.text_area(
             "Body",
             height=180,
             value=(
-                "Our DataBridge Pro ingestion pipeline is failing with timeout errors. "
-                "No records are processing and all users are affected."
+                "URGENT 2014 We are missing critical data in DataBridge Pro's Schema Management module."
+                "Last known good state: last week"
+                "Missing records: approximately 2775"
+                "Affected workflows: HR team operations"
+                ""
+                "This is a P1 for us. Please escalate immediately. We have business continuity at risk.",
+    
             ),
         )
         submitted = st.form_submit_button("Triage Ticket")
